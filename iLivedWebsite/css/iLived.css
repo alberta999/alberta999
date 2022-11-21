@@ -1,0 +1,46 @@
+/*and we will NOT be using IDs as selectors *double birds* */
+/*Items will be arranged as follows:
+  -Selector Type (Tag selectors, Class Selectors, ID selectors (if necessary), followed by Media Querys)
+  -Alphabetically
+
+Good luck out there. You can never have too much. -BAB
+*/
+
+/********** Tag Selectors **********/
+
+body {
+    background-image: linear-gradient(to bottom, #404040 1%, #282828 50%, #404040 100%);
+    background-repeat: no-repeat;
+    background-size: auto;
+  
+  }
+  
+  header {
+    background-color: #181818;
+    color: #FFFFFF;
+  }
+  
+  main {
+    color: #FFFFFF;
+  }
+  
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  
+  /********** Class Selectors **********/
+  .wrapper {
+    background-color: #121212;
+  }
+  
+  
+  /********** ID Selectors **********/
+  
+  
+  /********** Media Queries **********/
+  
